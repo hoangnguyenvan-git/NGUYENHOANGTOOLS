@@ -206,6 +206,3 @@ If you find this tool useful, feel free to:
 ## 🚀 Versioning
 All versions are managed via **GitHub Releases**  
 → Always download or update to the latest version for best performance
-
-The installer will:
-- Create folder:
