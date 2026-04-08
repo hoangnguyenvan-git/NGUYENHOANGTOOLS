@@ -131,3 +131,81 @@ Built for real-world production environments, this tool helps reduce manual work
 
 The installer will:
 - Create folder:
+- Download latest version from GitHub
+- Install all required files (DLL, JSON, RTE…)
+- Create Revit add-in file at: %AppData%\Autodesk\Revit\Addins\2024
+
+
+---
+
+### 🔁 Update to Latest Version
+
+Simply run the **same installer again**
+
+✔ It will:
+- Pull latest release from GitHub  
+- Replace old files automatically  
+- Keep your setup up-to-date  
+
+⚠️ Make sure **Revit is closed** before updating
+
+---
+
+## 📁 Installation Structure
+C:\NguyenHoangTools
+NguyenHoang.Tools.dll
+Google.Apis.dll
+HL_EXPORT_IFC_SETTING.json
+HOANGLONG_TEMPLATE_RVT24.rte
+...
+
+%AppData%\Autodesk\Revit\Addins\2024
+NguyenHoang.Tools.addin
+
+
+---
+
+## 🧠 Design Philosophy
+- ✔ Automation over manual work  
+- ✔ Consistency across projects  
+- ✔ Production-ready workflows  
+- ✔ Clean UI + clear feedback  
+- ✔ Easy deployment & update  
+
+---
+
+## ⚠️ Notes
+- Tool is optimized for **structural BIM workflows**
+- Requires correct project setup for best results (parameters, templates, etc.)
+- Some features depend on template files included in installation
+
+---
+
+## 📌 Future Improvements
+- Auto-update inside Revit UI  
+- More export formats (DWG, Navisworks)  
+- Advanced rebar grouping logic  
+- Performance optimization for large models  
+
+---
+
+## 👨‍💻 Author
+**Nguyen Hoang**  
+BIM Developer | Revit API | Structural BIM  
+
+---
+
+## ⭐ Support
+If you find this tool useful, feel free to:
+- ⭐ Star the repository
+- Share with your team
+- Suggest improvements
+
+---
+
+## 🚀 Versioning
+All versions are managed via **GitHub Releases**  
+→ Always download or update to the latest version for best performance
+
+The installer will:
+- Create folder:
